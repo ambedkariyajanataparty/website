@@ -1073,3 +1073,123 @@ OUR NATIONAL MISSION
 }
 
 }
+
+/* ==========================================
+   MOBILE RESPONSIVE FIX
+========================================== */
+
+@media screen and (max-width:768px){
+
+    html,body{
+        width:100%;
+        overflow-x:hidden;
+    }
+
+    *{
+        max-width:100%;
+    }
+
+    /* Header */
+
+    .header-wrapper{
+        flex-direction:column;
+        gap:15px;
+        width:100%;
+        padding:10px;
+    }
+
+    .header-container{
+        flex-direction:column;
+        width:100%;
+    }
+
+    .logo{
+        margin:0;
+    }
+
+    .logo img{
+        width:80px;
+        height:80px;
+    }
+
+    .flag{
+        width:100%;
+    }
+
+    .flag img{
+        width:90px;
+    }
+
+    .title-section h1{
+        font-size:26px;
+        line-height:1.2;
+        letter-spacing:1px;
+    }
+
+    .address,
+    .email{
+        font-size:14px;
+    }
+
+    /* Menu */
+
+    .menu{
+        display:grid;
+        grid-template-columns:repeat(2,1fr);
+    }
+
+    .menu li{
+        border:1px solid rgba(255,255,255,.15);
+    }
+
+    .menu li a{
+        font-size:17px;
+        padding:14px 8px;
+    }
+
+    /* Home Banner */
+
+    .home-banner{
+        flex-direction:column;
+        gap:25px;
+        padding:40px 15px;
+        min-height:auto;
+    }
+
+    .home-text h2{
+        font-size:24px;
+    }
+
+    .home-text p{
+        font-size:17px;
+    }
+
+    .home-buttons a{
+        display:block;
+        width:90%;
+        margin:12px auto;
+    }
+
+    .home-logo img{
+        width:180px;
+        height:180px;
+    }
+
+    /* Common Sections */
+
+    .section-title h2,
+    .mission-left h2,
+    .join-content h2,
+    .page-banner h2{
+        font-size:30px;
+    }
+
+    .page-content{
+        padding:40px 20px;
+    }
+
+    .page-content p{
+        font-size:17px;
+    }
+
+}
