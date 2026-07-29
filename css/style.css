@@ -668,3 +668,63 @@ MOBILE FIXES
     cursor:pointer;
     z-index:1001;
 }
+
+/* =================================
+   AJP INNER PAGE BLUE BANNER
+================================= */
+
+.page-banner{
+
+    background:#0047AB;
+    color:white;
+    padding:70px 20px;
+    text-align:center;
+
+}
+
+
+.page-banner h1{
+
+    font-size:42px;
+    margin-bottom:15px;
+    font-weight:700;
+
+}
+
+
+
+.page-banner p{
+
+    font-size:20px;
+    line-height:1.6;
+    max-width:800px;
+    margin:auto;
+
+}
+
+
+/* Mobile Banner */
+
+@media(max-width:768px){
+
+.page-banner{
+
+    padding:45px 15px;
+
+}
+
+
+.page-banner h1{
+
+    font-size:28px;
+
+}
+
+
+.page-banner p{
+
+    font-size:16px;
+
+}
+
+}
