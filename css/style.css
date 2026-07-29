@@ -608,6 +608,9 @@ nav ul li{
 }
 
 }
+.menu-btn{
+    display:none;
+}
 
 /* ==========================================
 MOBILE BUTTON FIX
@@ -657,4 +660,34 @@ MOBILE FIX
     padding:12px;
 }
 
+}
+..top-right{
+    display:flex;
+    align-items:center;
+    justify-content:flex-end;
+    gap:20px;
+}
+
+.social-links{
+    display:flex;
+    gap:10px;
+}
+
+.social-links a{
+    width:34px;
+    height:34px;
+    border:1px solid rgba(255,255,255,.4);
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:#fff;
+    text-decoration:none;
+    transition:.3s;
+}
+
+.social-links a:hover{
+    background:#ffc107;
+    color:#000;
+    border-color:#ffc107;
 }
