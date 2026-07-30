@@ -330,3 +330,88 @@ img{
     }
 
 }
+/* ==========================================
+   FINAL FIX - ABOUT, NEWS, JOIN SECTIONS
+   ========================================== */
+
+@media(max-width:768px){
+
+/* ABOUT AJP */
+
+.about-home{
+    width:100% !important;
+    overflow:hidden;
+}
+
+.about-home .container{
+    width:100% !important;
+    padding-left:15px !important;
+    padding-right:15px !important;
+}
+
+.about-grid{
+    display:grid !important;
+    grid-template-columns:1fr !important;
+    gap:20px !important;
+}
+
+.about-card{
+    width:100% !important;
+}
+
+
+/* LATEST NEWS */
+
+.latest-news{
+    width:100% !important;
+    overflow:hidden;
+}
+
+.latest-news .container{
+    width:100% !important;
+}
+
+.news-grid{
+    display:grid !important;
+    grid-template-columns:1fr !important;
+    gap:20px !important;
+}
+
+.news-card{
+    width:100% !important;
+}
+
+.news-card a{
+    display:inline-block !important;
+}
+
+
+/* JOIN AJP */
+
+.join-section{
+    width:100% !important;
+    overflow:hidden;
+}
+
+.join-section .container{
+    width:100% !important;
+}
+
+.join-stats{
+    display:grid !important;
+    grid-template-columns:1fr !important;
+    gap:20px !important;
+}
+
+.stat-box{
+    width:100% !important;
+}
+
+.join-buttons{
+    width:100% !important;
+    display:flex !important;
+    flex-direction:column !important;
+    align-items:center !important;
+}
+
+}
