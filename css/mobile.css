@@ -261,3 +261,72 @@ img{
 
 
 }
+/* ==========================================
+   AJP MOBILE OVERLAP RESET
+   ========================================== */
+
+@media(max-width:768px){
+
+    /* Reset all section grids */
+    .about-grid,
+    .pillar-grid,
+    .news-grid,
+    .join-stats,
+    .gallery-grid,
+    .footer-grid {
+
+        display:grid !important;
+        grid-template-columns:1fr !important;
+        gap:20px !important;
+        width:100% !important;
+        margin:0 !important;
+        padding:0 !important;
+    }
+
+
+    /* Reset all cards */
+    .about-card,
+    .pillar,
+    .news-card,
+    .stat-box,
+    .footer-column {
+
+        width:100% !important;
+        max-width:100% !important;
+        min-width:0 !important;
+        margin:0 !important;
+        transform:none !important;
+    }
+
+
+    /* Reset text blocks */
+    .section-heading,
+    .section-heading h2,
+    .section-heading p {
+
+        width:100% !important;
+        max-width:100% !important;
+        overflow-wrap:break-word;
+    }
+
+
+    /* Images */
+    .gallery-grid img {
+
+        width:100% !important;
+        height:auto !important;
+        object-fit:cover;
+    }
+
+
+    /* Buttons */
+    .btn {
+
+        display:inline-flex !important;
+        justify-content:center;
+        align-items:center;
+        width:90% !important;
+        max-width:300px !important;
+    }
+
+}
