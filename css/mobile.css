@@ -1,0 +1,28 @@
+/* ==========================================
+   AJP MOBILE RESPONSIVE DESIGN
+   ========================================== */
+
+@media (max-width:768px){
+
+    html, body {
+        width:100%;
+        overflow-x:hidden;
+    }
+
+    * {
+        box-sizing:border-box;
+    }
+
+    .container {
+        width:100% !important;
+        max-width:100% !important;
+        padding-left:15px;
+        padding-right:15px;
+    }
+
+    img {
+        max-width:100%;
+        height:auto;
+    }
+
+}
