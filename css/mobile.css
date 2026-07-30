@@ -1,108 +1,167 @@
 /* ==========================================
-   AJP MOBILE RESPONSIVE DESIGN
+   AJP MOBILE VERSION
    ========================================== */
 
 @media (max-width:768px){
 
-    html, body {
-        width:100%;
-        max-width:100%;
-        overflow-x:hidden;
-    }
+*{
+    box-sizing:border-box;
+}
 
-    * {
-        box-sizing:border-box;
-    }
-
-
-    .container {
-        width:100% !important;
-        max-width:100% !important;
-        padding-left:15px;
-        padding-right:15px;
-        margin:0 auto;
-    }
+html,body{
+    width:100%;
+    overflow-x:hidden;
+}
 
 
-    img,
-    video {
-        max-width:100%;
-        height:auto;
-    }
+/* Container */
+
+.container{
+    width:100%;
+    max-width:100%;
+    padding-left:15px;
+    padding-right:15px;
+}
 
 
-    h1,
-    h2,
-    h3 {
-        word-wrap:break-word;
-    }
+/* =========================
+   HERO SECTION
+========================= */
+
+.hero-content{
+    display:flex !important;
+    flex-direction:column;
+    text-align:center;
+}
+
+.hero-text{
+    width:100%;
+}
+
+.hero h1{
+    font-size:32px;
+    line-height:1.2;
+}
+
+.hero h3{
+    font-size:18px;
+}
+
+.hero p{
+    font-size:15px;
+}
+
+.hero-image{
+    margin-top:30px;
+}
+
+.hero-buttons{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:15px;
+}
 
 
-    /* Hero / Welcome Text */
-    .hero h1,
-    .hero h2,
-    .welcome-text,
-    .welcome-section h1 {
+/* =========================
+   ABOUT SECTION
+========================= */
 
-        font-size:28px;
-        line-height:1.3;
-        white-space:normal;
-        word-break:normal;
-        overflow-wrap:normal;
-    }
+.about-grid{
+    display:grid !important;
+    grid-template-columns:repeat(2,1fr) !important;
+    gap:15px;
+}
 
-
-    /* Buttons */
-    .about-buttons,
-    .button-group,
-    .mission-buttons {
-
-        display:flex;
-        flex-wrap:wrap;
-        justify-content:center;
-        gap:15px;
-    }
+.about-card{
+    width:100%;
+}
 
 
-    .about-buttons a,
-    .button-group a,
-    .mission-buttons a,
-    .about-buttons button,
-    .button-group button,
-    .mission-buttons button {
+/* =========================
+   TEN PILLARS
+========================= */
 
-        width:90%;
-        max-width:300px;
-    }
+.pillar-grid{
+    display:grid !important;
+    grid-template-columns:repeat(2,1fr) !important;
+    gap:15px;
+}
 
-
-    /* Prevent section overflow */
-
-    section,
-    .content,
-    .about-section,
-    .mission-section,
-    .pillars-section {
-
-        width:100%;
-        max-width:100%;
-        margin-left:0;
-        margin-right:0;
-    }
+.pillar{
+    width:100%;
+}
 
 
-    .row {
+/* =========================
+   MISSION
+========================= */
 
-        display:flex;
-        flex-direction:column;
-    }
+.mission-grid{
+    display:flex !important;
+    flex-direction:column;
+    text-align:center;
+}
+
+.mission-grid img{
+    margin-top:25px;
+}
 
 
-    .col,
-    [class*="col-"] {
+/* =========================
+   NEWS
+========================= */
 
-        width:100%;
-        max-width:100%;
-    }
+.news-grid{
+    display:grid !important;
+    grid-template-columns:repeat(2,1fr) !important;
+    gap:15px;
+}
+
+
+/* =========================
+   JOIN SECTION
+========================= */
+
+.join-stats{
+    display:grid !important;
+    grid-template-columns:repeat(2,1fr) !important;
+    gap:15px;
+}
+
+.join-buttons{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:15px;
+}
+
+
+/* =========================
+   GALLERY
+========================= */
+
+.gallery-grid{
+    display:grid !important;
+    grid-template-columns:repeat(2,1fr) !important;
+    gap:15px;
+}
+
+
+/* Buttons */
+
+.btn{
+    width:90%;
+    max-width:300px;
+}
+
+
+/* Images */
+
+img{
+    max-width:100%;
+    height:auto;
+}
+
 
 }
