@@ -415,3 +415,31 @@ img{
 }
 
 }
+/* Match About, News and Join cards like Pillars */
+
+@media(max-width:768px){
+
+.about-grid,
+.news-grid,
+.join-stats{
+
+    display:grid !important;
+    grid-template-columns:repeat(2,1fr) !important;
+    gap:15px !important;
+    width:100% !important;
+}
+
+
+.about-card,
+.news-card,
+.stat-box{
+
+    width:100% !important;
+    min-width:0 !important;
+    max-width:100% !important;
+    margin:0 !important;
+}
+
+
+
+}
