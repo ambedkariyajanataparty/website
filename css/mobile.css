@@ -165,3 +165,99 @@ img{
 
 
 }
+/* ==========================================
+   AJP MOBILE FINAL SECTION FIXES
+   ========================================== */
+
+@media(max-width:768px){
+
+
+/* ABOUT */
+
+.about-grid{
+    grid-template-columns:1fr !important;
+    width:100% !important;
+}
+
+.about-card{
+    width:100% !important;
+}
+
+
+/* TEN PILLARS */
+
+.pillar-grid{
+    grid-template-columns:repeat(2,1fr) !important;
+    width:100% !important;
+}
+
+.pillar{
+    min-width:0 !important;
+    width:100% !important;
+}
+
+
+/* NEWS */
+
+.news-grid{
+    grid-template-columns:1fr !important;
+    width:100% !important;
+}
+
+.news-card{
+    width:100% !important;
+}
+
+.news-card a{
+    display:inline-block;
+    margin-top:15px;
+}
+
+
+/* JOIN */
+
+.join-stats{
+    grid-template-columns:1fr !important;
+    width:100% !important;
+}
+
+.stat-box{
+    width:100% !important;
+}
+
+
+.join-buttons{
+    width:100%;
+}
+
+.join-buttons .btn{
+    width:90%;
+}
+
+
+/* GALLERY */
+
+.gallery-grid{
+    grid-template-columns:repeat(2,1fr) !important;
+    width:100% !important;
+}
+
+.gallery-grid img{
+    width:100% !important;
+    object-fit:cover;
+}
+
+
+/* FOOTER */
+
+.footer-grid{
+    grid-template-columns:1fr !important;
+    width:100% !important;
+}
+
+.footer-column{
+    width:100% !important;
+}
+
+
+}
