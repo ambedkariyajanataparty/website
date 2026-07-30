@@ -6,6 +6,7 @@
 
     html, body {
         width:100%;
+        max-width:100%;
         overflow-x:hidden;
     }
 
@@ -13,16 +14,95 @@
         box-sizing:border-box;
     }
 
+
     .container {
         width:100% !important;
         max-width:100% !important;
         padding-left:15px;
         padding-right:15px;
+        margin:0 auto;
     }
 
-    img {
+
+    img,
+    video {
         max-width:100%;
         height:auto;
+    }
+
+
+    h1,
+    h2,
+    h3 {
+        word-wrap:break-word;
+    }
+
+
+    /* Hero / Welcome Text */
+    .hero h1,
+    .hero h2,
+    .welcome-text,
+    .welcome-section h1 {
+
+        font-size:28px;
+        line-height:1.3;
+        white-space:normal;
+        word-break:normal;
+        overflow-wrap:normal;
+    }
+
+
+    /* Buttons */
+    .about-buttons,
+    .button-group,
+    .mission-buttons {
+
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:center;
+        gap:15px;
+    }
+
+
+    .about-buttons a,
+    .button-group a,
+    .mission-buttons a,
+    .about-buttons button,
+    .button-group button,
+    .mission-buttons button {
+
+        width:90%;
+        max-width:300px;
+    }
+
+
+    /* Prevent section overflow */
+
+    section,
+    .content,
+    .about-section,
+    .mission-section,
+    .pillars-section {
+
+        width:100%;
+        max-width:100%;
+        margin-left:0;
+        margin-right:0;
+    }
+
+
+    .row {
+
+        display:flex;
+        flex-direction:column;
+    }
+
+
+    .col,
+    [class*="col-"] {
+
+        width:100%;
+        max-width:100%;
     }
 
 }
