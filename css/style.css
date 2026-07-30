@@ -790,3 +790,38 @@ section, div {
     }
 
 }
+/* Final Mobile Width Containment Fix */
+@media (max-width:768px){
+
+    section,
+    .container,
+    .row,
+    .content,
+    .about-section,
+    .mission-section,
+    .pillars-section {
+        width:100% !important;
+        max-width:100% !important;
+        margin-left:0 !important;
+        margin-right:0 !important;
+        padding-left:15px;
+        padding-right:15px;
+    }
+
+    .row {
+        display:flex;
+        flex-direction:column;
+    }
+
+    .col,
+    [class*="col-"] {
+        width:100% !important;
+        max-width:100% !important;
+    }
+
+    img {
+        max-width:100% !important;
+        height:auto;
+    }
+
+}
