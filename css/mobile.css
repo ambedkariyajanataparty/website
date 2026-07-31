@@ -184,3 +184,49 @@ section{
 nav{
     display:none;
 }
+/* ==========================================
+   MOBILE SECTION COLORS
+========================================== */
+
+/* Hero */
+.hero{
+    background:linear-gradient(135deg,#003366,#0056b3);
+    color:#ffffff;
+}
+
+/* About */
+.about-home{
+    background:#ffffff;
+}
+
+/* Ten Pillars */
+.pillars{
+    background:#eaf4ff;
+}
+
+/* Mission */
+.mission{
+    background:#ffffff;
+}
+
+/* Latest News */
+.latest-news{
+    background:#f3f7fb;
+}
+
+/* Join */
+.join-section{
+    background:linear-gradient(135deg,#004080,#0066cc);
+    color:#ffffff;
+}
+
+/* Gallery */
+.gallery-preview{
+    background:#ffffff;
+}
+
+/* Footer */
+.footer{
+    background:#002147;
+    color:#ffffff;
+}
