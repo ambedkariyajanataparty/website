@@ -324,3 +324,29 @@ nav{
     white-space:nowrap;
     margin:0;
 }
+/* ==========================================
+   FOOTER LINK COLOR FIX
+========================================== */
+
+.footer a,
+.footer a:visited{
+    color:#ffffff !important;
+    text-decoration:none;
+}
+
+.footer a:hover{
+    color:#FFD700 !important;
+}
+
+.footer p,
+.footer li{
+    color:#ffffff;
+}
+
+.footer h3{
+    color:#FFD700;
+}
+
+.footer i{
+    color:#FFD700;
+}
