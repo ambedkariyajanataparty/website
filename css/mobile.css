@@ -19,23 +19,53 @@ body{
     line-height:1.6;
     overflow-x:hidden;
 }
+.container{
+    width:92%;
+    max-width:420px;
+    margin:0 auto;
+}
 
 img{
-    width:100%;
+    max-width:100%;
+    height:auto;
     display:block;
     border-radius:12px;
 }
 
-a{
-    text-decoration:none;
+
+/* Hero Image */
+.hero-image{
+    width:140px;
+    margin:20px auto;
 }
 
-.container{
-    width:92%;
-    max-width:420px;
+.hero-image img{
+    width:140px;
+    height:auto;
+}
+
+/* ==========================================
+   GALLERY
+========================================== */
+
+.gallery-preview{
+    padding:50px 0;
+}
+
+.gallery-grid{
+    width:100%;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:10px;
+    margin-top:20px;
+}
+.gallery-grid img{
+    width:90px;
+    height:90px;
+    object-fit:cover;
+    border-radius:10px;
     margin:auto;
 }
-
 /* SECTION */
 
 section{
@@ -88,11 +118,11 @@ section{
     text-align:center;
     padding:60px 20px;
 }
-
 .hero-image{
-    width:220px;
-    margin:25px auto;
+    width:140px;
+    margin:20px auto;
 }
+
 
 .hero h1{
     font-size:34px;
