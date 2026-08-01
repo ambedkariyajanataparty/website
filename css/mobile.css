@@ -436,13 +436,3 @@ nav{
 .join-cta p{
     color:#222;
 }
-
-/* Prevent Horizontal Scroll */
-
-.cards,
-.card,
-.join-form,
-.page-banner{
-    max-width:100%;
-    overflow:hidden;
-}
