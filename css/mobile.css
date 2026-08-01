@@ -36,19 +36,6 @@ a{
    MOBILE HEADER
 ========================================== */
 
-
-.mobile-header{
-
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    padding:15px;
-    background:#061b4f;
-    color:white;
-
-}
-
-
 .mobile-logo{
 
     display:flex;
@@ -80,18 +67,6 @@ a{
     font-size:16px;
 
 }
-
-
-.mobile-menu-btn{
-
-    background:none;
-    border:none;
-    color:white;
-    font-size:28px;
-
-}
-
-
 
 
 
@@ -585,25 +560,7 @@ font-weight:600;
     background:#061b4f;
     color:white;
 }
-/* SOCIAL ICONS BELOW HEADER */
-
-.mobile-social-top{
-
-    display:flex;
-    justify-content:center;
-    gap:15px;
-    padding:10px;
-    background:#061b4f;
-
-}
-
-
-.mobile-social-top a{
-
-    color:white;
-    font-size:20px;
-
-}/* =====================================
+/* =====================================
    MOBILE HEADER FINAL ALIGNMENT
 ===================================== */
 
@@ -615,6 +572,7 @@ font-weight:600;
     text-align:center;
     padding:15px;
     background:#061b4f;
+    color:white;
 
 }
 
@@ -645,12 +603,16 @@ font-weight:600;
 }
 
 
+/* SOCIAL ICONS BELOW HEADER */
+
 .mobile-social-top{
 
     display:flex;
     justify-content:center;
     gap:15px;
     margin-top:12px;
+    padding:10px;
+    background:#061b4f;
 
 }
 
