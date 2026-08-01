@@ -722,7 +722,6 @@ FOOTER
     }
 
 }
-
 /* ==========================================
    JOIN PAGE
 ========================================== */
@@ -746,24 +745,29 @@ FOOTER
     text-align:center;
 }
 
+/* White */
 .why-join{
     background:#ffffff;
 }
 
+/* Soft Sky Blue */
 .benefits{
-    background:#eef6ff;
+    background:#CFE8FF;
 }
 
+/* Soft Light Grey */
 .eligibility{
-    background:#f7f7f7;
+    background:#ECECEC;
 }
 
+/* Soft Cream */
 .membership-form{
-    background:#ffffff;
+    background:#FFF8E6;
 }
 
+/* Dark Golden */
 .join-cta{
-    background:#d4a017;
+    background:#C69214;
     color:#222;
     text-align:center;
 }
