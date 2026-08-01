@@ -451,3 +451,137 @@ a{
 }
 
 }
+/* Section Colours */
+
+.mobile-hero{
+background:#ffffff;
+}
+
+
+.mobile-section:nth-of-type(1){
+background:#f0f7ff;
+}
+
+
+.pillars-mobile{
+background:#fff7e6;
+}
+
+
+.mission-mobile{
+background:#f2fff2;
+}
+
+
+.latest-mobile{
+background:#fff0f5;
+}
+
+
+.mobile-join{
+background:#061b4f;
+}
+
+
+.mobile-footer{
+background:#111;
+}
+.mobile-card a{
+display:inline-block;
+margin-top:10px;
+color:#061b4f;
+font-weight:600;
+}
+/* ==========================================
+   MOBILE SECTION BACKGROUND COLOURS
+   Alternating White / Blue / Brown
+========================================== */
+
+
+/* Header */
+.mobile-header{
+    background:#061b4f;
+}
+
+
+/* Menu */
+.mobile-nav{
+    background:#ffffff;
+}
+
+
+
+/* Welcome / Hero */
+.mobile-hero{
+    background:#ffffff;
+}
+
+
+
+/* About AJP */
+.mobile-section:nth-of-type(1){
+    background:#061b4f;
+    color:white;
+}
+
+.mobile-section:nth-of-type(1) h2{
+    color:white;
+}
+
+
+/* Ten Pillars */
+.pillars-mobile{
+    background:#8b4513;
+    color:white;
+}
+
+.pillars-mobile h2{
+    color:white;
+}
+
+.pillars-mobile li{
+    background:white;
+    color:#222;
+}
+
+
+
+/* Mission */
+.mission-mobile{
+    background:#ffffff;
+    color:#222;
+}
+
+
+
+/* Latest News */
+.latest-mobile{
+    background:#061b4f;
+    color:white;
+}
+
+.latest-mobile h2{
+    color:white;
+}
+
+
+/* Join Movement */
+.mobile-join{
+    background:#8b4513;
+    color:white;
+}
+
+
+
+/* Gallery */
+.mobile-gallery{
+    background:#ffffff;
+}
+
+
+
+/* Footer */
+.mobile-footer{
+    background:#061b4f;
+    color:white;
+}
