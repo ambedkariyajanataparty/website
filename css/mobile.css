@@ -478,3 +478,50 @@ nav ul li a{
 .join-cta p{
     color:#222;
 }
+
+/* ==========================================
+   MOBILE FIX - HOME PAGE GRIDS
+========================================== */
+
+/* Latest News */
+.news-grid{
+    display:grid;
+    grid-template-columns:1fr;
+    gap:20px;
+}
+
+.news-card{
+    width:100%;
+}
+
+/* Join Section */
+.join-stats{
+    display:grid;
+    grid-template-columns:1fr;
+    gap:20px;
+}
+
+.join-buttons{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+/* Footer */
+.footer-grid{
+    display:grid;
+    grid-template-columns:1fr;
+    gap:30px;
+}
+
+.footer-column{
+    width:100%;
+    word-break:break-word;
+}
+
+.footer-social{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:12px;
+}
