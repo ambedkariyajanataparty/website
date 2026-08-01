@@ -585,3 +585,22 @@ font-weight:600;
     background:#061b4f;
     color:white;
 }
+/* SOCIAL ICONS BELOW HEADER */
+
+.mobile-social-top{
+
+    display:flex;
+    justify-content:center;
+    gap:15px;
+    padding:10px;
+    background:#061b4f;
+
+}
+
+
+.mobile-social-top a{
+
+    color:white;
+    font-size:20px;
+
+}
