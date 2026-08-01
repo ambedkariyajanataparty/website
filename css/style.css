@@ -722,3 +722,105 @@ FOOTER
     }
 
 }
+
+/* ==========================================
+   JOIN PAGE
+========================================== */
+
+/* Section Spacing */
+
+.page-banner,
+.why-join,
+.benefits,
+.eligibility,
+.membership-form,
+.join-cta{
+    padding:60px 0;
+}
+
+/* Alternate Background Colours */
+
+.page-banner{
+    background:linear-gradient(135deg,#003366,#0056b3);
+    color:#fff;
+    text-align:center;
+}
+
+.why-join{
+    background:#ffffff;
+}
+
+.benefits{
+    background:#eef6ff;
+}
+
+.eligibility{
+    background:#f7f7f7;
+}
+
+.membership-form{
+    background:#ffffff;
+}
+
+.join-cta{
+    background:#d4a017;
+    color:#222;
+    text-align:center;
+}
+
+.join-cta h2,
+.join-cta p{
+    color:#222;
+}
+
+/* Cards */
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:30px;
+    margin-top:40px;
+}
+
+.card{
+    background:#fff;
+    padding:30px;
+    border-radius:12px;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+}
+
+/* Membership Form */
+
+.join-form{
+    max-width:900px;
+    margin:40px auto 0;
+    display:grid;
+    grid-template-columns:220px 1fr;
+    gap:18px;
+    align-items:center;
+}
+
+.join-form input,
+.join-form textarea{
+    width:100%;
+    padding:14px;
+    border:1px solid #ccc;
+    border-radius:8px;
+    font-size:16px;
+}
+
+.join-form textarea{
+    height:140px;
+    resize:vertical;
+}
+
+.join-form button{
+    grid-column:1 / 3;
+    padding:16px;
+    background:#003366;
+    color:#fff;
+    border:none;
+    border-radius:8px;
+    font-size:18px;
+    cursor:pointer;
+}
