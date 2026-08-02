@@ -346,7 +346,227 @@ a{
 }
 
 
+/* ==========================================
+   JOIN PAGE
+========================================== */
 
+/* PAGE BANNER */
+
+.mobile-page-banner{
+
+    background:#ffffff;
+    text-align:center;
+    padding:40px 15px;
+
+}
+
+.mobile-page-banner h1{
+
+    color:#061b4f;
+    font-size:28px;
+    margin-bottom:15px;
+
+}
+
+.mobile-page-banner p{
+
+    max-width:500px;
+    margin:auto;
+    font-size:15px;
+    color:#555;
+
+}
+
+
+/* COMMON SECTION TITLE */
+
+.section-title{
+
+    text-align:center;
+    margin-bottom:25px;
+
+}
+
+.section-title h2{
+
+    color:#061b4f;
+    font-size:26px;
+    margin-bottom:10px;
+
+}
+
+.section-title p{
+
+    color:#555;
+    font-size:15px;
+
+}
+
+
+/* WHY JOIN */
+
+.mobile-why-join{
+
+    background:#061b4f;
+    color:white;
+    padding:40px 15px;
+
+}
+
+.mobile-why-join .section-title h2,
+.mobile-why-join .section-title p{
+
+    color:white;
+
+}
+
+
+/* MEMBERSHIP BENEFITS */
+
+.mobile-benefits{
+
+    background:#8b4513;
+    color:white;
+    padding:40px 15px;
+
+}
+
+.mobile-benefits .section-title h2,
+.mobile-benefits .section-title p{
+
+    color:white;
+
+}
+
+
+/* ELIGIBILITY */
+
+.mobile-eligibility{
+
+    background:#ffffff;
+    padding:40px 15px;
+    text-align:center;
+
+}
+
+.mobile-eligibility h2{
+
+    color:#061b4f;
+
+}
+
+.eligibility-text{
+
+    max-width:600px;
+    margin:auto;
+    font-size:15px;
+    color:#555;
+    line-height:1.8;
+
+}
+
+
+/* MEMBERSHIP FORM */
+
+.mobile-membership{
+
+    background:#061b4f;
+    color:white;
+    padding:40px 15px;
+
+}
+
+.mobile-membership .section-title h2,
+.mobile-membership .section-title p{
+
+    color:white;
+
+}
+
+.mobile-join-form{
+
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+    margin-top:25px;
+
+}
+
+.mobile-join-form input,
+.mobile-join-form textarea{
+
+    width:100%;
+    padding:14px;
+    border:none;
+    border-radius:8px;
+    font-family:'Poppins',sans-serif;
+    font-size:15px;
+
+}
+
+.mobile-join-form textarea{
+
+    min-height:120px;
+    resize:vertical;
+
+}
+
+.mobile-join-form button{
+
+    background:#8b4513;
+    color:white;
+    border:none;
+    padding:14px;
+    border-radius:8px;
+    font-size:16px;
+    font-weight:600;
+    cursor:pointer;
+    transition:.3s;
+
+}
+
+.mobile-join-form button:hover{
+
+    background:#6f3510;
+
+}
+
+
+/* CTA */
+
+.mobile-join-cta{
+
+    background:#8b4513;
+    color:white;
+    text-align:center;
+    padding:45px 15px;
+
+}
+
+.mobile-join-cta h2{
+
+    margin-bottom:15px;
+    font-size:26px;
+
+}
+
+.mobile-join-cta p{
+
+    margin-bottom:25px;
+    line-height:1.8;
+
+}
+
+.mobile-join-cta .btn{
+
+    display:inline-block;
+    background:white;
+    color:#061b4f;
+    padding:12px 25px;
+    border-radius:6px;
+    font-weight:600;
+
+}
 
 
 /* ==========================================
