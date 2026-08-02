@@ -1,6 +1,9 @@
 /* ==========================================
    AJP MOBILE WEBSITE CSS
 ========================================== */
+/* MOBILE ONLY */
+
+@media(max-width:768px){
 
 *{
     margin:0;
@@ -1061,4 +1064,5 @@ font-weight:600;
     color:white;
     font-size:20px;
 
+}
 }
