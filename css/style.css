@@ -617,6 +617,105 @@ RESPONSIVE
 }
 
 /* ==========================================
+   MANIFESTO PAGE
+========================================== */
+
+/* OUR VISION */
+
+.manifesto-vision{
+
+    background:#ffffff;
+    padding:80px 0;
+
+}
+
+.vision-content{
+
+    max-width:900px;
+    margin:40px auto 0;
+    text-align:center;
+
+}
+
+.vision-content p{
+
+    font-size:18px;
+    line-height:1.9;
+    color:#555;
+    margin-bottom:25px;
+
+}
+
+
+/* KEY COMMITMENTS */
+
+.manifesto-commitments{
+
+    background:#061b4f;
+    padding:80px 0;
+
+}
+
+.manifesto-commitments .section-heading h2,
+.manifesto-commitments .section-heading p{
+
+    color:white;
+
+}
+
+.manifesto-commitments .card{
+
+    background:white;
+
+}
+
+.manifesto-commitments .card h3{
+
+    color:#061b4f;
+
+}
+
+.manifesto-commitments .card p{
+
+    color:#555;
+
+}
+
+.manifesto-commitments .card a{
+
+    display:inline-block;
+    margin-top:15px;
+    color:#061b4f;
+    font-weight:600;
+
+}
+
+
+/* OUR PROMISE */
+
+.manifesto-promise{
+
+    background:#ffffff;
+    padding:80px 0;
+
+}
+
+.manifesto-promise p{
+
+    font-size:18px;
+    color:#555;
+}
+
+
+/* CTA */
+
+.join-cta{
+
+    background:#8b4513;
+
+}
+
+/* ==========================================
 FOOTER
 ========================================== */
 
