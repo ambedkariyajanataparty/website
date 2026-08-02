@@ -568,6 +568,40 @@ a{
 
 }
 
+.mobile-why-join .mobile-card{
+
+    color:#222;
+
+}
+
+.mobile-why-join .mobile-card h3{
+
+    color:#061b4f;
+
+}
+
+.mobile-why-join .mobile-card p{
+
+    color:#555;
+
+}
+.mobile-benefits .mobile-card{
+
+    color:#222;
+
+}
+
+.mobile-benefits .mobile-card h3{
+
+    color:#061b4f;
+
+}
+
+.mobile-benefits .mobile-card p{
+
+    color:#555;
+
+}
 
 /* ==========================================
    FOOTER
@@ -607,7 +641,17 @@ a{
 }
 
 
+.footer-contact a{
 
+    color:white;
+
+}
+
+.footer-contact a:hover{
+
+    color:#dddddd;
+
+}
 
 
 /* ==========================================
