@@ -927,3 +927,128 @@ FOOTER
     font-size:18px;
     cursor:pointer;
 }
+/* ==========================================
+   MANIFESTO DETAILS PAGE
+========================================== */
+
+/* Banner */
+
+.manifesto-details-banner{
+
+    background:#061b4f;
+    color:white;
+    text-align:center;
+    padding:70px 20px;
+
+}
+
+.manifesto-details-banner h1{
+
+    font-size:42px;
+    margin-bottom:20px;
+
+}
+
+.manifesto-details-banner p{
+
+    max-width:800px;
+    margin:auto;
+    line-height:1.8;
+}
+
+
+/* Sections */
+
+.manifesto-detail{
+
+    padding:70px 20px;
+
+}
+
+.manifesto-detail:nth-child(even){
+
+    background:#f8f9fc;
+
+}
+
+.manifesto-detail h2{
+
+    color:#061b4f;
+    margin-bottom:20px;
+    font-size:34px;
+
+}
+
+.manifesto-detail p{
+
+    color:#555;
+    line-height:1.9;
+    margin-bottom:18px;
+
+}
+
+
+/* CTA */
+
+.manifesto-details-cta{
+
+    background:#8b4513;
+    color:white;
+    text-align:center;
+    padding:70px 20px;
+
+}
+
+.manifesto-details-cta h2{
+
+    font-size:36px;
+    margin-bottom:20px;
+
+}
+
+.manifesto-details-cta p{
+
+    max-width:800px;
+    margin:0 auto 30px;
+    line-height:1.8;
+
+}
+
+.manifesto-details-cta .btn{
+
+    display:inline-block;
+    background:white;
+    color:#061b4f;
+    padding:14px 30px;
+    border-radius:6px;
+    font-weight:600;
+
+}
+/* ==========================================
+   SECTION DIVIDERS
+========================================== */
+
+.manifesto-detail{
+
+    position:relative;
+    padding:70px 20px;
+
+}
+
+.manifesto-detail::after{
+
+    content:"";
+    display:block;
+    width:120px;
+    height:4px;
+    background:#8b4513;
+    margin:50px auto 0;
+    border-radius:10px;
+
+}
+
+.manifesto-detail:last-of-type::after{
+
+    display:none;
+
+}
