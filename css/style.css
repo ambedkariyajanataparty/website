@@ -927,10 +927,3 @@ FOOTER
     font-size:18px;
     cursor:pointer;
 }
-@media(max-width:768px){
-
-body{
-display:none;
-}
-
-}
