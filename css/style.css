@@ -930,6 +930,9 @@ FOOTER
 /* ==========================================
    MANIFESTO DETAILS PAGE
 ========================================== */
+/* ==========================================
+   MANIFESTO DETAILS PAGE
+========================================== */
 
 /* Banner */
 
@@ -954,6 +957,7 @@ FOOTER
     max-width:800px;
     margin:auto;
     line-height:1.8;
+
 }
 
 
@@ -961,21 +965,29 @@ FOOTER
 
 .manifesto-detail{
 
+    position:relative;
     padding:70px 20px;
 
 }
 
-.manifesto-detail:nth-child(even){
+.manifesto-detail:nth-of-type(even){
 
     background:#f8f9fc;
+
+}
+
+.manifesto-detail:nth-of-type(odd){
+
+    background:#ffffff;
 
 }
 
 .manifesto-detail h2{
 
     color:#061b4f;
-    margin-bottom:20px;
     font-size:34px;
+    margin-bottom:20px;
+    text-align:center;
 
 }
 
@@ -984,6 +996,31 @@ FOOTER
     color:#555;
     line-height:1.9;
     margin-bottom:18px;
+    text-align:center;
+    max-width:900px;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+
+
+/* Section Divider */
+
+.manifesto-detail::after{
+
+    content:"";
+    display:block;
+    width:120px;
+    height:4px;
+    background:#8b4513;
+    margin:50px auto 0;
+    border-radius:10px;
+
+}
+
+.manifesto-detail:last-of-type::after{
+
+    display:none;
 
 }
 
@@ -1011,6 +1048,7 @@ FOOTER
     max-width:800px;
     margin:0 auto 30px;
     line-height:1.8;
+    color:white;
 
 }
 
@@ -1022,33 +1060,6 @@ FOOTER
     padding:14px 30px;
     border-radius:6px;
     font-weight:600;
-
-}
-/* ==========================================
-   SECTION DIVIDERS
-========================================== */
-
-.manifesto-detail{
-
-    position:relative;
-    padding:70px 20px;
-
-}
-
-.manifesto-detail::after{
-
-    content:"";
-    display:block;
-    width:120px;
-    height:4px;
-    background:#8b4513;
-    margin:50px auto 0;
-    border-radius:10px;
-
-}
-
-.manifesto-detail:last-of-type::after{
-
-    display:none;
+    text-decoration:none;
 
 }
