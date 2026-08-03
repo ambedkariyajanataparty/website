@@ -684,6 +684,11 @@ a{
 
     background:white;
     color:#222;
+}
+.mobile-manifesto .mobile-card{
+
+    width:100%;
+    margin:0 0 20px;
 
 }
 
