@@ -1213,3 +1213,286 @@ FOOTER
     display:none;
 
 }
+/* ==========================================
+   ABOUT PAGE
+========================================== */
+
+
+.about-section{
+
+    padding:70px 0;
+
+    background:#f5f8fc;
+
+}
+
+
+
+.about-intro{
+
+    max-width:900px;
+
+    margin:0 auto 50px;
+
+    text-align:center;
+
+}
+
+
+
+.about-intro h2{
+
+    font-size:36px;
+
+    margin-bottom:20px;
+
+    color:#123b68;
+
+}
+
+
+
+.about-intro p{
+
+    font-size:17px;
+
+    line-height:1.8;
+
+    margin-bottom:20px;
+
+}
+
+
+
+
+.about-cards{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:30px;
+
+    margin:50px 0;
+
+}
+
+
+
+.about-cards .card{
+
+    background:white;
+
+    padding:35px 25px;
+
+    border-radius:12px;
+
+    text-align:center;
+
+    box-shadow:0 8px 20px rgba(0,0,0,0.08);
+
+}
+
+
+
+.about-cards .card h3{
+
+    font-size:22px;
+
+    color:#b21f1f;
+
+    margin-bottom:15px;
+
+}
+
+
+
+.about-cards .card p{
+
+    font-size:16px;
+
+    line-height:1.7;
+
+}
+
+
+
+
+.about-block{
+
+    max-width:900px;
+
+    margin:60px auto;
+
+    background:white;
+
+    padding:40px;
+
+    border-radius:12px;
+
+    box-shadow:0 8px 20px rgba(0,0,0,0.08);
+
+}
+
+
+
+.about-block h2{
+
+    text-align:center;
+
+    color:#123b68;
+
+    font-size:32px;
+
+    margin-bottom:20px;
+
+}
+
+
+
+.about-block p{
+
+    font-size:17px;
+
+    line-height:1.8;
+
+    margin-bottom:15px;
+
+}
+
+
+
+.about-block .mission-list{
+
+    padding-left:25px;
+
+}
+
+
+
+.about-block .mission-list li{
+
+    margin-bottom:12px;
+
+    font-size:17px;
+
+}
+
+
+
+.manifesto-message{
+
+    margin-top:60px;
+
+    padding:50px 30px;
+
+    text-align:center;
+
+    background:#123b68;
+
+    color:white;
+
+    border-radius:15px;
+
+}
+
+
+
+.manifesto-message h2{
+
+    font-size:32px;
+
+    margin-bottom:20px;
+
+}
+
+
+
+.manifesto-message p{
+
+    max-width:750px;
+
+    margin:0 auto 30px;
+
+    line-height:1.8;
+
+}
+
+
+
+.manifesto-message .btn{
+
+    display:inline-block;
+
+    background:#f4c542;
+
+    color:#111;
+
+    padding:12px 30px;
+
+    border-radius:30px;
+
+    font-weight:600;
+
+    text-decoration:none;
+
+}
+/* ==========================================
+   ABOUT PAGE FINAL FIX
+========================================== */
+
+.about-section .container{
+
+    display:flex !important;
+
+    flex-direction:column !important;
+
+    align-items:stretch !important;
+
+}
+
+
+.about-intro{
+
+    width:100% !important;
+
+    display:block !important;
+
+    margin-bottom:50px;
+
+}
+
+
+.about-cards{
+
+    width:100% !important;
+
+    display:grid !important;
+
+    grid-template-columns:repeat(3,1fr) !important;
+
+    gap:30px;
+
+    margin-bottom:50px;
+
+}
+
+
+.about-block{
+
+    width:100% !important;
+
+    display:block !important;
+
+    margin-bottom:50px;
+
+}
+
+
+.manifesto-message{
+
+    width:100% !important;
+
+    display:block !important;
+
+}
