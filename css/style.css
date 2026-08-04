@@ -1175,3 +1175,41 @@ FOOTER
     padding:80px 0;
 
 }
+/* ==========================================
+   PROGRAM DETAILS PAGE
+========================================== */
+
+.program-details-light{
+
+    background:#f5f8fc;
+    padding:70px 20px;
+    position:relative;
+
+}
+
+.program-details-white{
+
+    background:#ffffff;
+    padding:70px 20px;
+    position:relative;
+
+}
+
+.program-details-light::after,
+.program-details-white::after{
+
+    content:"";
+    display:block;
+    width:120px;
+    height:4px;
+    background:#8b4513;
+    margin:50px auto 0;
+    border-radius:10px;
+
+}
+
+.program-details-white:last-of-type::after{
+
+    display:none;
+
+}
