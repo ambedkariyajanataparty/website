@@ -1214,3 +1214,17 @@ font-weight:600;
     color:#ffffff;
 
 }
+/* ==========================================
+   FORCE PROGRAM BUTTON TEXT TO WHITE
+========================================== */
+
+.mobile-card a,
+.mobile-card a:link,
+.mobile-card a:visited,
+.mobile-card a:hover,
+.mobile-card a:active{
+
+    color:#ffffff !important;
+    text-decoration:none;
+
+}
