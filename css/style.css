@@ -1063,3 +1063,82 @@ FOOTER
     text-decoration:none;
 
 }
+/* ==========================================
+   PROGRAMS PAGE
+========================================== */
+
+/* Programs Cards */
+
+.cards{
+
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:30px;
+    margin-top:50px;
+
+}
+
+.card{
+
+    background:#ffffff;
+    padding:35px;
+    border-radius:12px;
+    box-shadow:0 8px 25px rgba(0,0,0,.08);
+    transition:.3s;
+    text-align:center;
+
+}
+
+.card:hover{
+
+    transform:translateY(-8px);
+
+}
+
+.card h3{
+
+    color:#061b4f;
+    margin-bottom:18px;
+    font-size:24px;
+
+}
+
+.card p{
+
+    color:#555;
+    line-height:1.8;
+    margin-bottom:25px;
+
+}
+
+.card a{
+
+    display:inline-block;
+    background:#8b4513;
+    color:#ffffff;
+    padding:12px 24px;
+    border-radius:6px;
+    text-decoration:none;
+    font-weight:600;
+    transition:.3s;
+
+}
+
+.card a:hover{
+
+    background:#061b4f;
+
+}
+
+
+/* Community & Future Sections */
+
+.programs-text{
+
+    max-width:900px;
+    margin:auto;
+    line-height:1.9;
+    color:#555;
+    text-align:center;
+
+}
