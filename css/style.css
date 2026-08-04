@@ -879,10 +879,12 @@ FOOTER
 /* Cards */
 
 .cards{
+
     display:grid;
-    grid-template-columns:repeat(3,1fr);
-    gap:30px;
-    margin-top:40px;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:40px;
+    margin:60px 0;
+
 }
 
 .card{
@@ -1140,5 +1142,36 @@ FOOTER
     line-height:1.9;
     color:#555;
     text-align:center;
+
+}
+/* ==========================================
+   PROGRAMS SECTION COLOURS
+========================================== */
+
+.programs-vision{
+
+    background:#ffffff;
+    padding:80px 0;
+
+}
+
+.programs-core{
+
+    background:#f5f8fc;
+    padding:80px 0;
+
+}
+
+.programs-outreach{
+
+    background:#ffffff;
+    padding:80px 0;
+
+}
+
+.programs-future{
+
+    background:#f5f8fc;
+    padding:80px 0;
 
 }
