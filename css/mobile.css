@@ -1067,3 +1067,114 @@ font-weight:600;
     font-size:20px;
 
 }
+
+/* ==========================================
+   MOBILE MANIFESTO DETAILS PAGE
+========================================== */
+
+/* Sections */
+
+.mobile-manifesto-detail{
+
+    padding:45px 0;
+    background:#ffffff;
+
+}
+
+.mobile-manifesto-detail.alternate{
+
+    background:#f5f8fc;
+
+}
+
+.mobile-manifesto-detail .container{
+
+    width:92%;
+    max-width:420px;
+    margin:auto;
+
+}
+
+.mobile-manifesto-detail h2{
+
+    color:#003b8f;
+    font-size:24px;
+    text-align:center;
+    margin-bottom:15px;
+
+}
+
+.mobile-manifesto-detail .section-title p{
+
+    text-align:center;
+    color:#666;
+    margin-bottom:25px;
+
+}
+
+.mobile-manifesto-detail .manifesto-text{
+
+    color:#444;
+    line-height:1.8;
+    text-align:justify;
+    margin-bottom:18px;
+
+}
+
+/* Brown Divider */
+
+.mobile-manifesto-detail::after{
+
+    content:"";
+    display:block;
+    width:90px;
+    height:4px;
+    background:#8b4513;
+    margin:35px auto 0;
+    border-radius:10px;
+
+}
+
+.mobile-manifesto-detail:last-of-type::after{
+
+    display:none;
+
+}
+
+
+/* CTA */
+
+.mobile-manifesto-cta{
+
+    background:#8b4513;
+    color:#ffffff;
+    text-align:center;
+    padding:55px 20px;
+
+}
+
+.mobile-manifesto-cta h2{
+
+    font-size:28px;
+    margin-bottom:18px;
+
+}
+
+.mobile-manifesto-cta p{
+
+    line-height:1.8;
+    margin-bottom:30px;
+
+}
+
+.mobile-manifesto-cta .btn{
+
+    display:inline-block;
+    background:#ffffff;
+    color:#003b8f;
+    padding:12px 28px;
+    border-radius:6px;
+    text-decoration:none;
+    font-weight:600;
+
+}
